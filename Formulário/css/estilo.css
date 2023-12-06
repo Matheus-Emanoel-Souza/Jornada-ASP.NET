@@ -1,0 +1,55 @@
+body
+{
+    font-family:"Verdana", sans-serif;
+    background-color:black;
+}
+
+.titulo
+{
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+.container
+{
+    font-size: 13px;
+    font-weight: bolder;
+    margin: auto;
+    width: 400px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    padding: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.campo.text,.nasc,.comentario
+{
+    font-size: 10px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comentario
+{
+    resize: none;
+}
+
+.botoes
+{
+    font-weight: 900;
+    font-weight: "bolder";
+    padding: 0;
+    border: none;
+}
+
+.sub
+{
+    background:dodgerblue;
+    color:white;
+}

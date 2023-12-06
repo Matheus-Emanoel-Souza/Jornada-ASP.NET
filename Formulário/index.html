@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Exercício - Formulário</title>
+</head>
+
+<body>
+<div class="container">
+<form class="form" action="" id="form" method="post">
+<div class="titulo">cadastro de usuário</div>
+<div class="label"><label for="l-nome">Nome:
+</label>
+</div>
+
+<div class="campo-text"><input type="text" placeholder="Nome" name="nome" id="nome" maxlength="100" size="30"></div>
+    
+<div class="label"><label for="sobrenome">Sobrenome:</label></div>
+
+<div class="campo-text"><input type="text" placeholder="sobrenome" name="sobrenome" id="sobrenome" maxlength="100" size="30"></div>
+
+<div class="label"><label for="email">Email:</label></div>
+
+<div class="campo-text"><input type="text" placeholder="E-mail" name="email" id="email" maxlength="100" size="30"></div>
+
+<div class="label"><label for="telefone">Telefone:</label></div>
+
+<div class="campo-text"><input type="text" placeholder="telefone" name="telefone" id="telefone" maxlength="15" size="30"></div>
+
+<div class="nasc"></div>
+<div class="label-nasc"><label for="l-datanasc">Data de Nascimento:</label></div>
+<div class="ls-nasc">
+    <select name="dia" id="dia">
+        <option value="" disable selected>Dia</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+
+<select name="mes" id="mes">
+    <option value="" disable selected>Mês</option>
+    <option value="Janeiro">Janeiro</option>
+    <option value="Fevereiro">Fevereiro</option>
+    <option value="Março">Março</option>
+    <option value="Abril">Abril</option>
+    <option value="Maio">Maio</option>
+    <option value="Junho">Junho</option>
+    <option value="julho">julho</option>
+    <option value="Agosto">Agosto</option>
+    <option value="Setembro">Setembro</option>
+    <option value="Outubro">Outubro</option>
+    <option value="Novembro">Novembro</option>
+    <option value="Dezembro">Dezembro</option>
+</select>
+
+<select name="ano"  id="ano">
+    <option value=""disable selected>ano</option>
+    <option value="1990">1990</option>
+    <option value="1991">1991</option>
+    <option value="1992">1992</option>
+    <option value="1993">1993</option>
+    <option value="1994">1994</option>
+    <option value="1995">1995</option>
+    <option value="1996">1996</option>
+    <option value="1997">1997</option>
+    <option value="1998">1998</option>
+    <option value="1999">1999</option>
+</select></div>
+
+<Div class="label">
+    <label for="l-descricao">
+        Descricao:  
+    </label></Div>
+
+<div class="Comentários">
+    <textarea cols="25" id="descricao" rows="5" name="descricao" maxlength="50" 
+    placeholder="Coragem, você consegue !!"></textarea>
+</div>
+<div class="botoes">
+    <input type="button" name="enviar" id="enviar" class="sub" value="Enviar">
+    <input type="button" name="reset" id="reset" value="Limpar">
+</div>
+</form>
+</div>
+</body>
+</html>
